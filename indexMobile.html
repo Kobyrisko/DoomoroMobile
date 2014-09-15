@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="an opertunity for a position">
+		<meta name="author" content="Koby Riskovich">
+		<!-- Bootstrap Core CSS -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href = "css/style.css" rel="stylesheet" type="text/css" />
+		
+		<title>Doomoro MobilePage, Koby Riskovich</title>
+		
+	</head>
+	<!--Main Page-->
+	<body onload = "oInitialize.Initialize()">
+		<article>
+			<section>
+				<div class = "headBarTop container" id = "personalData"></div>
+				<div class= "headBar container" id = "headLine"></div>
+				<div class = "Images">
+					<img class = "middlePicture"src ="">
+					<div class = "works">
+				<img src ='' class = 'picturesClass' id = 'mainImage'>
+				</div>
+				<div class = "bar container columns">
+					<li>
+						<h1><span class = "glyphicon glyphicon-barcode"></span></h1>
+					</li>
+					<li>
+						<h4>80%</h4>
+						<h5>Positive Rating</h4>
+					</li>
+					<li>
+						<h4>4</h4>
+						<h5>Vouched</h5>
+					</li>
+				</div>
+
+				<div class = "bar container">
+					<h4><b><span class="glyphicon glyphicon-certificate"> </span> Doo</b>moro Buyer Protection</h4>
+				</div>
+
+				<div class = "bar container">
+					<a href="#" id = "contactDooer"><h4><span class="glyphicon glyphicon-comment" > </span> Contact Dooer</h4></a>
+					
+					<!--Contact Dooer Form default hide opens up in a dialog-->
+					<form role="form" id = "contactDooerForm">
+						<input type = "text" name = "Name" placeholder = "Name" class="form-control"/>
+						<input type = "email" name = "Email" placeholder="Email" class="form-control"/>
+						<textarea name "Description" placeholder = "Description" class="form-control" rows="3"></textarea>
+						<input type = "submit" class="form-control"/>
+					</form>
+				</div>
+				<!--Description Section -->
+				<section>
+					<div class ="container description">
+						<p></p>
+						<p></p>
+						<a class = "pull-right"href = "#" id = "seeMore"><h5>SEE MORE</h5></a>
+					</div>
+				</section>
+				
+				<!--Properties Section-->
+				<section>
+					<div class ="container">
+						<div class = "checkPoint">
+							<h5><i class='glyphicon glyphicon-check'></i> Check Point </h5>
+						</div>
+						<div class = "availabilty">
+							<h5><i class='glyphicon glyphicon-cloud'></i> Availabilty<h5>
+						</div>
+						<div class = "buyerInstruction">
+							<h5><i class='glyphicon glyphicon-plus'></i> Instructions for buyer<h5>
+						</div>
+					</div>
+				</section>
+
+				<section class ="comments">
+					<div class = "container">
+						<h1>Costumer Reviews
+						<hr>
+						</h1>
+						<a href = "#"><h5>More Reviews</h5></a>
+					</div>
+				</section>
+
+				<section class ="userQuestions">
+					<h1>User Questions
+					<hr>
+					</h1>
+					<form role = "form" id = "userCommentForm">
+						<input type = "text" class ="form-control" value="Shai Gecelter" readonly />
+						<textarea class ="form-control" id = "userComment" placeholder="Please write a comment"></textarea>
+						<input type = "submit" value = "Submit Comment" class ="form-control"/>
+					</form>
+					<form role = "form" id = "userReplyForm">
+						<input type = "text" class ="form-control" id = "username" value="Shai Gecelter" readonly />
+						<textarea class ="form-control" id = "userReply" placeholder="Please write a comment"></textarea>
+						<input type = "submit" value = "Submit Reply" class ="form-control"/>
+					</form>
+					<a href = "#" id = "addAComment"><h6 >add a comment</h6></a>
+					<a href = "#"><h5>Show More</h5></a>
+				</section>
+				<section>
+					<div class = "container">
+						<form role = "form" class = "shareForm">
+							<div class="radio">
+								<label>
+									<input type="radio" name="optionsRadios" id="facebook" value="option1">
+									<span><img src = "Images/Icons/facebook.png"></span> Share with 10 Facebookers </label>
+							</div>
+							<div class="radio">
+								<label>
+									<input type="radio" name="optionsRadios" id="linkedin" value="option2">
+									<span><img src = "Images/Icons/LinkedInIcon.png"></span> Share with 10 Linkedin friends </label>
+							</div>
+							<div class="radio">
+								<label>
+									<input type="radio" name="optionsRadios" id="mail" value="option3" >
+									<span><img src = "Images/Icons/mailIcon.png"></span> Share with 10 awsome people </label>
+							</div>
+							<div class="radio">
+								<label>
+									<input type="radio" name="optionsRadios" id="twitter" value="option3">
+									<span><img src = "Images/Icons/twitterIcon.png"></span> Tweet 3 times </label>
+							</div>
+							<a href = "#" ><img src="Images/shareAndGet.png" id ="shareAndGetImage"/></a>
+						</form>
+					</div>
+				</section>
+			</section>
+		</article>
+		<!--Jquery-->
+		<script src = "js/jquery-1.11.0.js"></script>
+		<script src = "js/InitializeMobile.js"></script>
+		
+		<!-- Bootstrap Core JavaScript -->
+		<script src="js/bootstrap.min.js"></script>
+		<!--Jquery UI-->
+		<script src="http://code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
+	</body>
+</html>
